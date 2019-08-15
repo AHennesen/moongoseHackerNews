@@ -11,7 +11,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3001 ;
 
 // Initialize Express
 var app = express();
